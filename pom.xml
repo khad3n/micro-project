@@ -10,6 +10,8 @@
 
     <modules>
         <module>eureka-server</module>
+        <module>simple-test-client</module>
+        <module>api-gateway</module>
     </modules>
     <packaging>pom</packaging>
 
