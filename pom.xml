@@ -12,6 +12,7 @@
         <module>eureka-server</module>
         <module>simple-test-client</module>
         <module>api-gateway</module>
+        <module>app-config-server</module>
     </modules>
     <packaging>pom</packaging>
 

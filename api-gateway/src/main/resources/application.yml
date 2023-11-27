@@ -1,21 +1,5 @@
-server:
-  port: 8082
-
 spring:
   application:
     name: api-gateway
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-          lower-case-service-id: true
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8081/eureka
-
-logging:
-  pattern:
-    console: '%C{1.} [%-5level] %d{HH:mm:ss} - %msg%n'
+  config:
+    import: optional:configserver:http://localhost:8888
